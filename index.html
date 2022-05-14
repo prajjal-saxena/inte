@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
    <header>
     <div class="post">
         <div class="container">
           <div class="poster">
-              <div>
-                <span>Phone : 9625757516</span><span style="padding: 0 8px 0 8px;">|</span><span>Email id : ikayainteriors2020@gmail.com</span>
+              <div class="phone-info">
+                <span>Phone : 9625757516</span><span>Email id : ikayainteriors2020@gmail.com</span>
               </div>
                 
               <div class="connect">
@@ -31,20 +31,34 @@
         </div>
       </div>
        <div class="container">
-           <div class="navi">
-            <div class="nav-img">
-                <img src="img/logo11.jfif" alt="">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img class="nav-img" src="img/logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact-us">CONTACT US</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="nav-btn">
-                <button class="btn btn-danger-ahead">Get Free Estimate</button>
-            </div>  
-           </div>
+          </nav>             
+       </div>
            
        </div>
    </header>
   
 
-    <section>
+    <section id="home">
         <div class="tabs">
             <hr>
             <div class="container">
@@ -386,7 +400,7 @@
          </div>
     </section>
  
-    <footer >
+    <footer id="about">
         <div class="container">
         <div class="foot">
             <div>
@@ -401,48 +415,32 @@
         <hr>
 
         <div class="customer">
-            <div class="supp cus">
-                <h2>Customer Support</h2>
-                <p>284,Sectxxxxx, Chakxxxxx, Gurugram, Haryana</p>
-
-                <p>Email id: ikayainteriors2020@gmail.com</p>
-                <p>Phone: 9625757516/p>
-                <p>Landline: (+91) 2444256</p>
-            </div>
-            <div class="mid cus">
-                <h2>Modular Kitchen</h2>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-            </div>
-            <div class="wardrobe cus">
-                <h2>Wardrobe Design</h2>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-            </div>
-            <div class="interior cus">
-                <h2>Interior Design</h2>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-                <p>Lorem.</p>
-            </div>
-        </div>
+           <div class="custom1">
+               <h1>Wardrow</h1>
+               <ul>
+                   <li>lorem</li>
+                   <li>lorem</li>
+                   <li>lorem</li>
+                   <li>lorem</li>
+                   <li>lorem</li>
+               </ul>
+           </div>
+           <div class="custom1">
+               <h1>About Us</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos magni ipsa sunt repudiandae eaque laborum ex illum, sint ad ipsum.</p>
+           </div>
+           <div class="custom1" id="contact-us ">
+               <h1>Contact Us</h1>
+               <div>
+                  <h2><i class="fa-bu fa fa-building" aria-hidden="true"></i>Corporate Office</h2>
+                  <p>Ansal Plaza Mall Vaishali</p>
+               </div>
+               <div>
+                   <h2><i class="fa-bu fa fa-building-o" aria-hidden="true"></i>Work Office</h2>
+                   <p>14/6 Site 4 Sahibabad Industrial Area</p>
+                   <p>Sahibabad (Ghaziabad) U.P.</p>
+               </div>
+           </div>
         </div>
     </footer>
 
